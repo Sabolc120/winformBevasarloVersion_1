@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bananaCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bananaCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 15</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bananaCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="bananaCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="bananaCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bananaCheckbox.Text" xml:space="preserve">
+    <value>Banán</value>
+  </data>
+  <data name="&gt;&gt;bananaCheckbox.Name" xml:space="preserve">
+    <value>bananaCheckbox</value>
+  </data>
+  <data name="&gt;&gt;bananaCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bananaCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bananaCheckbox.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="strawberryCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="strawberryCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 75</value>
+  </data>
+  <data name="strawberryCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="strawberryCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="strawberryCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="strawberryCheckbox.Text" xml:space="preserve">
+    <value>Eper</value>
+  </data>
+  <data name="&gt;&gt;strawberryCheckbox.Name" xml:space="preserve">
+    <value>strawberryCheckbox</value>
+  </data>
+  <data name="&gt;&gt;strawberryCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;strawberryCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;strawberryCheckbox.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cucumberCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cucumberCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 75</value>
+  </data>
+  <data name="cucumberCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cucumberCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="cucumberCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cucumberCheckbox.Text" xml:space="preserve">
+    <value>Uborka</value>
+  </data>
+  <data name="&gt;&gt;cucumberCheckbox.Name" xml:space="preserve">
+    <value>cucumberCheckbox</value>
+  </data>
+  <data name="&gt;&gt;cucumberCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cucumberCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cucumberCheckbox.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="paprikaCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="paprikaCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 15</value>
+  </data>
+  <data name="paprikaCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="paprikaCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="paprikaCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="paprikaCheckbox.Text" xml:space="preserve">
+    <value>Paprika</value>
+  </data>
+  <data name="&gt;&gt;paprikaCheckbox.Name" xml:space="preserve">
+    <value>paprikaCheckbox</value>
+  </data>
+  <data name="&gt;&gt;paprikaCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paprikaCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;paprikaCheckbox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="pineappleCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pineappleCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>900, 75</value>
+  </data>
+  <data name="pineappleCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pineappleCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="pineappleCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pineappleCheckbox.Text" xml:space="preserve">
+    <value>Ananász</value>
+  </data>
+  <data name="&gt;&gt;pineappleCheckbox.Name" xml:space="preserve">
+    <value>pineappleCheckbox</value>
+  </data>
+  <data name="&gt;&gt;pineappleCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pineappleCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pineappleCheckbox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tomatoCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tomatoCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>900, 15</value>
+  </data>
+  <data name="tomatoCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tomatoCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="tomatoCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tomatoCheckbox.Text" xml:space="preserve">
+    <value>Paradicsom</value>
+  </data>
+  <data name="&gt;&gt;tomatoCheckbox.Name" xml:space="preserve">
+    <value>tomatoCheckbox</value>
+  </data>
+  <data name="&gt;&gt;tomatoCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tomatoCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tomatoCheckbox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="potatoCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="potatoCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1225, 75</value>
+  </data>
+  <data name="potatoCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="potatoCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="potatoCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="potatoCheckbox.Text" xml:space="preserve">
+    <value>krumpli</value>
+  </data>
+  <data name="&gt;&gt;potatoCheckbox.Name" xml:space="preserve">
+    <value>potatoCheckbox</value>
+  </data>
+  <data name="&gt;&gt;potatoCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;potatoCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;potatoCheckbox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="onionCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onionCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1225, 15</value>
+  </data>
+  <data name="onionCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="onionCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="onionCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="onionCheckbox.Text" xml:space="preserve">
+    <value>Hagyma</value>
+  </data>
+  <data name="&gt;&gt;onionCheckbox.Name" xml:space="preserve">
+    <value>onionCheckbox</value>
+  </data>
+  <data name="&gt;&gt;onionCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;onionCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;onionCheckbox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="eggplantCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="eggplantCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1601, 75</value>
+  </data>
+  <data name="eggplantCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="eggplantCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="eggplantCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="eggplantCheckbox.Text" xml:space="preserve">
+    <value>Padlizsán</value>
+  </data>
+  <data name="&gt;&gt;eggplantCheckbox.Name" xml:space="preserve">
+    <value>eggplantCheckbox</value>
+  </data>
+  <data name="&gt;&gt;eggplantCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eggplantCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;eggplantCheckbox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="saladCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="saladCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1601, 15</value>
+  </data>
+  <data name="saladCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="saladCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="saladCheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="saladCheckbox.Text" xml:space="preserve">
+    <value>Saláta</value>
+  </data>
+  <data name="&gt;&gt;saladCheckbox.Name" xml:space="preserve">
+    <value>saladCheckbox</value>
+  </data>
+  <data name="&gt;&gt;saladCheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saladCheckbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saladCheckbox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="bananaNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 15</value>
+  </data>
+  <data name="bananaNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="bananaNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="bananaNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;bananaNumber.Name" xml:space="preserve">
+    <value>bananaNumber</value>
+  </data>
+  <data name="&gt;&gt;bananaNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bananaNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bananaNumber.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="strawberryNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 71</value>
+  </data>
+  <data name="strawberryNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="strawberryNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="strawberryNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;strawberryNumber.Name" xml:space="preserve">
+    <value>strawberryNumber</value>
+  </data>
+  <data name="&gt;&gt;strawberryNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;strawberryNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;strawberryNumber.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 47</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Mennyi?</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="paprikaNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 15</value>
+  </data>
+  <data name="paprikaNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="paprikaNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="paprikaNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;paprikaNumber.Name" xml:space="preserve">
+    <value>paprikaNumber</value>
+  </data>
+  <data name="&gt;&gt;paprikaNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paprikaNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;paprikaNumber.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cucumberNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 74</value>
+  </data>
+  <data name="cucumberNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cucumberNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="cucumberNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cucumberNumber.Name" xml:space="preserve">
+    <value>cucumberNumber</value>
+  </data>
+  <data name="&gt;&gt;cucumberNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cucumberNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cucumberNumber.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tomatoNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 11</value>
+  </data>
+  <data name="tomatoNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tomatoNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="tomatoNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tomatoNumber.Name" xml:space="preserve">
+    <value>tomatoNumber</value>
+  </data>
+  <data name="&gt;&gt;tomatoNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tomatoNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tomatoNumber.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pineappleNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 75</value>
+  </data>
+  <data name="pineappleNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pineappleNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="pineappleNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pineappleNumber.Name" xml:space="preserve">
+    <value>pineappleNumber</value>
+  </data>
+  <data name="&gt;&gt;pineappleNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pineappleNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pineappleNumber.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="onionNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1165, 15</value>
+  </data>
+  <data name="onionNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="onionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="onionNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;onionNumber.Name" xml:space="preserve">
+    <value>onionNumber</value>
+  </data>
+  <data name="&gt;&gt;onionNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;onionNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;onionNumber.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="potatoNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1165, 71</value>
+  </data>
+  <data name="potatoNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="potatoNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="potatoNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;potatoNumber.Name" xml:space="preserve">
+    <value>potatoNumber</value>
+  </data>
+  <data name="&gt;&gt;potatoNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;potatoNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;potatoNumber.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="saladNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1527, 15</value>
+  </data>
+  <data name="saladNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="saladNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="saladNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;saladNumber.Name" xml:space="preserve">
+    <value>saladNumber</value>
+  </data>
+  <data name="&gt;&gt;saladNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saladNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saladNumber.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="eggplantNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1527, 71</value>
+  </data>
+  <data name="eggplantNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="eggplantNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="eggplantNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;eggplantNumber.Name" xml:space="preserve">
+    <value>eggplantNumber</value>
+  </data>
+  <data name="&gt;&gt;eggplantNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eggplantNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;eggplantNumber.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="addItemButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 123</value>
+  </data>
+  <data name="addItemButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="addItemButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 28</value>
+  </data>
+  <data name="addItemButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="addItemButton.Text" xml:space="preserve">
+    <value>Bevásárló kosárhoz hozzáadás</value>
+  </data>
+  <data name="&gt;&gt;addItemButton.Name" xml:space="preserve">
+    <value>addItemButton</value>
+  </data>
+  <data name="&gt;&gt;addItemButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addItemButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addItemButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="shoppingList.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="shoppingList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 159</value>
+  </data>
+  <data name="shoppingList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="shoppingList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 452</value>
+  </data>
+  <data name="shoppingList.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;shoppingList.Name" xml:space="preserve">
+    <value>shoppingList</value>
+  </data>
+  <data name="&gt;&gt;shoppingList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shoppingList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;shoppingList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 391</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Kassza,  fizetendő:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="moneySummaryNumeric.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="moneySummaryNumeric.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 396</value>
+  </data>
+  <data name="moneySummaryNumeric.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="moneySummaryNumeric.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="moneySummaryNumeric.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;moneySummaryNumeric.Name" xml:space="preserve">
+    <value>moneySummaryNumeric</value>
+  </data>
+  <data name="&gt;&gt;moneySummaryNumeric.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;moneySummaryNumeric.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;moneySummaryNumeric.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="payButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 449</value>
+  </data>
+  <data name="payButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="payButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 28</value>
+  </data>
+  <data name="payButton.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="payButton.Text" xml:space="preserve">
+    <value>Fizetés</value>
+  </data>
+  <data name="&gt;&gt;payButton.Name" xml:space="preserve">
+    <value>payButton</value>
+  </data>
+  <data name="&gt;&gt;payButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;payButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;payButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 173</value>
+  </data>
+  <data name="resetButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1735, 814</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Shopping program</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
